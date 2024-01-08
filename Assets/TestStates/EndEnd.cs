@@ -1,7 +1,7 @@
 ﻿using StateMachinePackage.Runtime;
 using System;
 
-namespace Assets.Game.Core.GameStateMachine.Implementation.States
+namespace Assets.TestStates
 {
     public class EndEnd : State
     {

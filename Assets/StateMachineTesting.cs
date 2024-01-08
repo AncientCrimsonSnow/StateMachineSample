@@ -1,10 +1,10 @@
-using Assets.Game.Core.GameStateMachine.Implementation.States;
+using Assets.TestStates;
 using StateMachinePackage.Runtime;
 using StateMachinePackage.Runtime.Transitions.Conditions;
 using System;
 using UnityEngine;
 
-namespace Assets.Game.Core.GameStateMachine.Testing
+namespace Assets
 {
     public class StateMachineTesting : MonoBehaviour
     {
