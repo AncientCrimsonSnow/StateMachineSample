@@ -29,7 +29,6 @@ namespace Assets
             var leftMouseButtonClickCondition = new EventCondition(ref _onLeftMouseClick);
             var rightMouseButtonClickCondition = new EventCondition(ref _onRightMouseClick);
 
-            _stateMachineManager.AddTransition(typeof(Start), typeof(MidStart), leftMouseButtonClickCondition);
             _stateMachineManager.AddTransition(typeof(MidStart), typeof(MidMidStart), leftMouseButtonClickCondition);
             _stateMachineManager.AddTransition(typeof(MidMidStart), typeof(MidMidEnd), leftMouseButtonClickCondition);
             _stateMachineManager.AddTransition(typeof(MidMidEnd), typeof(MidEnd), leftMouseButtonClickCondition);
