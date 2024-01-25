@@ -23,6 +23,11 @@ namespace Assets.TestStates
         {
             base.Enter();
         }
+
+        public override void Update()
+        {
+            UnityEngine.Debug.Log("Mid Update");
+        }
         public override void Exit() {
             base.Exit();
         }
