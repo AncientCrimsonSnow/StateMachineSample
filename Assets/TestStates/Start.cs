@@ -8,7 +8,7 @@ namespace Assets.TestStates
     public class Start : State
     {
         TimeCondition _timeCondition;
-        FloatWrapper _contdownValue = new FloatWrapper(0);
+        readonly FloatWrapper _contdownValue = new(1);
 
         public Start(
             State parent = null) : base(
@@ -26,7 +26,6 @@ namespace Assets.TestStates
         public override void Enter()
         {
             base.Enter();
-            _contdownValue.Value++;
             _timeCondition.StartTimer();
         }
         public override void Exit() {
