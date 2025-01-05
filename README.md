@@ -1,5 +1,3 @@
-# README for StateMachineSample Repository
-
 ## Overview
 This repository contains a sample project demonstrating the usage of the StateMachinePackage with a Hierarchical State Machine (HSM).
 
